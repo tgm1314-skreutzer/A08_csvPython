@@ -6,7 +6,7 @@ from csvVerbinndung import *
 class TestCsvVerbindung(TestCase):
 
     def setUp(self):
-        self.csvfile = csvVerbindung("/home/sarahkreutzer/Desktop/csv_test.csv")
+        self.csvfile = csvVerbindung("csv_test.csv")
         pass
 
     def test_csvFile(self):
